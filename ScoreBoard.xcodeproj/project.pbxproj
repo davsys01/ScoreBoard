@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D108A19147085A1000771D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A18147085A1000771D0 /* UIKit.framework */; };
+		2D108A1B147085A1000771D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A1A147085A1000771D0 /* Foundation.framework */; };
+		2D108A1D147085A1000771D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A1C147085A1000771D0 /* CoreGraphics.framework */; };
+		2D108A23147085A1000771D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D108A21147085A1000771D0 /* InfoPlist.strings */; };
+		2D108A25147085A1000771D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D108A24147085A1000771D0 /* main.m */; };
+		2D108A29147085A1000771D0 /* ScoreBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D108A28147085A1000771D0 /* ScoreBoardAppDelegate.m */; };
+		2D108A2C147085A1000771D0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D108A2A147085A1000771D0 /* MainWindow.xib */; };
+		2D108A2F147085A1000771D0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D108A2E147085A1000771D0 /* RootViewController.m */; };
+		2D108A32147085A1000771D0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D108A30147085A1000771D0 /* RootViewController.xib */; };
+		2D108A3A147085A2000771D0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A39147085A1000771D0 /* SenTestingKit.framework */; };
+		2D108A3B147085A2000771D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A18147085A1000771D0 /* UIKit.framework */; };
+		2D108A3C147085A2000771D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A1A147085A1000771D0 /* Foundation.framework */; };
+		2D108A3D147085A2000771D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A1C147085A1000771D0 /* CoreGraphics.framework */; };
+		2D108A45147085A2000771D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D108A43147085A2000771D0 /* InfoPlist.strings */; };
+		2D108A47147085A2000771D0 /* ScoreBoardTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2D108A46147085A2000771D0 /* ScoreBoardTests.h */; };
+		2D108A49147085A2000771D0 /* ScoreBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D108A48147085A2000771D0 /* ScoreBoardTests.m */; };
+		2D108A561470890D000771D0 /* StepOneVewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D108A541470890D000771D0 /* StepOneVewController.m */; };
+		2D108A571470890D000771D0 /* StepOneVewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D108A551470890D000771D0 /* StepOneVewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D108A3E147085A2000771D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D108A0B147085A1000771D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D108A13147085A1000771D0;
+			remoteInfo = ScoreBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D108A14147085A1000771D0 /* ScoreBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D108A18147085A1000771D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D108A1A147085A1000771D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D108A1C147085A1000771D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D108A20147085A1000771D0 /* ScoreBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreBoard-Info.plist"; sourceTree = "<group>"; };
+		2D108A22147085A1000771D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D108A24147085A1000771D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D108A26147085A1000771D0 /* ScoreBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoreBoard-Prefix.pch"; sourceTree = "<group>"; };
+		2D108A27147085A1000771D0 /* ScoreBoardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreBoardAppDelegate.h; sourceTree = "<group>"; };
+		2D108A28147085A1000771D0 /* ScoreBoardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreBoardAppDelegate.m; sourceTree = "<group>"; };
+		2D108A2B147085A1000771D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2D108A2D147085A1000771D0 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2D108A2E147085A1000771D0 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2D108A31147085A1000771D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		2D108A38147085A1000771D0 /* ScoreBoardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreBoardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D108A39147085A1000771D0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D108A42147085A2000771D0 /* ScoreBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreBoardTests-Info.plist"; sourceTree = "<group>"; };
+		2D108A44147085A2000771D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D108A46147085A2000771D0 /* ScoreBoardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreBoardTests.h; sourceTree = "<group>"; };
+		2D108A48147085A2000771D0 /* ScoreBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreBoardTests.m; sourceTree = "<group>"; };
+		2D108A531470890D000771D0 /* StepOneVewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepOneVewController.h; sourceTree = "<group>"; };
+		2D108A541470890D000771D0 /* StepOneVewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepOneVewController.m; sourceTree = "<group>"; };
+		2D108A551470890D000771D0 /* StepOneVewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepOneVewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D108A11147085A1000771D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D108A19147085A1000771D0 /* UIKit.framework in Frameworks */,
+				2D108A1B147085A1000771D0 /* Foundation.framework in Frameworks */,
+				2D108A1D147085A1000771D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D108A34147085A1000771D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D108A3A147085A2000771D0 /* SenTestingKit.framework in Frameworks */,
+				2D108A3B147085A2000771D0 /* UIKit.framework in Frameworks */,
+				2D108A3C147085A2000771D0 /* Foundation.framework in Frameworks */,
+				2D108A3D147085A2000771D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D108A09147085A1000771D0 = {
+			isa = PBXGroup;
+			children = (
+				2D108A1E147085A1000771D0 /* ScoreBoard */,
+				2D108A40147085A2000771D0 /* ScoreBoardTests */,
+				2D108A17147085A1000771D0 /* Frameworks */,
+				2D108A15147085A1000771D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D108A15147085A1000771D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D108A14147085A1000771D0 /* ScoreBoard.app */,
+				2D108A38147085A1000771D0 /* ScoreBoardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D108A17147085A1000771D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D108A18147085A1000771D0 /* UIKit.framework */,
+				2D108A1A147085A1000771D0 /* Foundation.framework */,
+				2D108A1C147085A1000771D0 /* CoreGraphics.framework */,
+				2D108A39147085A1000771D0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D108A1E147085A1000771D0 /* ScoreBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2D108A27147085A1000771D0 /* ScoreBoardAppDelegate.h */,
+				2D108A531470890D000771D0 /* StepOneVewController.h */,
+				2D108A541470890D000771D0 /* StepOneVewController.m */,
+				2D108A28147085A1000771D0 /* ScoreBoardAppDelegate.m */,
+				2D108A2D147085A1000771D0 /* RootViewController.h */,
+				2D108A2E147085A1000771D0 /* RootViewController.m */,
+				2D108A52147086AC000771D0 /* Resources */,
+				2D108A1F147085A1000771D0 /* Supporting Files */,
+			);
+			path = ScoreBoard;
+			sourceTree = "<group>";
+		};
+		2D108A1F147085A1000771D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D108A20147085A1000771D0 /* ScoreBoard-Info.plist */,
+				2D108A21147085A1000771D0 /* InfoPlist.strings */,
+				2D108A24147085A1000771D0 /* main.m */,
+				2D108A26147085A1000771D0 /* ScoreBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D108A40147085A2000771D0 /* ScoreBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D108A46147085A2000771D0 /* ScoreBoardTests.h */,
+				2D108A48147085A2000771D0 /* ScoreBoardTests.m */,
+				2D108A41147085A2000771D0 /* Supporting Files */,
+			);
+			path = ScoreBoardTests;
+			sourceTree = "<group>";
+		};
+		2D108A41147085A2000771D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D108A42147085A2000771D0 /* ScoreBoardTests-Info.plist */,
+				2D108A43147085A2000771D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D108A52147086AC000771D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D108A2A147085A1000771D0 /* MainWindow.xib */,
+				2D108A551470890D000771D0 /* StepOneVewController.xib */,
+				2D108A30147085A1000771D0 /* RootViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D108A13147085A1000771D0 /* ScoreBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D108A4C147085A2000771D0 /* Build configuration list for PBXNativeTarget "ScoreBoard" */;
+			buildPhases = (
+				2D108A10147085A1000771D0 /* Sources */,
+				2D108A11147085A1000771D0 /* Frameworks */,
+				2D108A12147085A1000771D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreBoard;
+			productName = ScoreBoard;
+			productReference = 2D108A14147085A1000771D0 /* ScoreBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D108A37147085A1000771D0 /* ScoreBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D108A4F147085A2000771D0 /* Build configuration list for PBXNativeTarget "ScoreBoardTests" */;
+			buildPhases = (
+				2D108A33147085A1000771D0 /* Sources */,
+				2D108A34147085A1000771D0 /* Frameworks */,
+				2D108A35147085A1000771D0 /* Resources */,
+				2D108A36147085A1000771D0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D108A3F147085A2000771D0 /* PBXTargetDependency */,
+			);
+			name = ScoreBoardTests;
+			productName = ScoreBoardTests;
+			productReference = 2D108A38147085A1000771D0 /* ScoreBoardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D108A0B147085A1000771D0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2D108A0E147085A1000771D0 /* Build configuration list for PBXProject "ScoreBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D108A09147085A1000771D0;
+			productRefGroup = 2D108A15147085A1000771D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D108A13147085A1000771D0 /* ScoreBoard */,
+				2D108A37147085A1000771D0 /* ScoreBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D108A12147085A1000771D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D108A23147085A1000771D0 /* InfoPlist.strings in Resources */,
+				2D108A2C147085A1000771D0 /* MainWindow.xib in Resources */,
+				2D108A32147085A1000771D0 /* RootViewController.xib in Resources */,
+				2D108A571470890D000771D0 /* StepOneVewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D108A35147085A1000771D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D108A45147085A2000771D0 /* InfoPlist.strings in Resources */,
+				2D108A47147085A2000771D0 /* ScoreBoardTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D108A36147085A1000771D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D108A10147085A1000771D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D108A25147085A1000771D0 /* main.m in Sources */,
+				2D108A29147085A1000771D0 /* ScoreBoardAppDelegate.m in Sources */,
+				2D108A2F147085A1000771D0 /* RootViewController.m in Sources */,
+				2D108A561470890D000771D0 /* StepOneVewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D108A33147085A1000771D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D108A49147085A2000771D0 /* ScoreBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D108A3F147085A2000771D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D108A13147085A1000771D0 /* ScoreBoard */;
+			targetProxy = 2D108A3E147085A2000771D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D108A21147085A1000771D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D108A22147085A1000771D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D108A2A147085A1000771D0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D108A2B147085A1000771D0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2D108A30147085A1000771D0 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D108A31147085A1000771D0 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		2D108A43147085A2000771D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D108A44147085A2000771D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D108A4A147085A2000771D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D108A4B147085A2000771D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D108A4D147085A2000771D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreBoard/ScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "ScoreBoard/ScoreBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D108A4E147085A2000771D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreBoard/ScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "ScoreBoard/ScoreBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D108A50147085A2000771D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScoreBoard.app/ScoreBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreBoard/ScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "ScoreBoardTests/ScoreBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2D108A51147085A2000771D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScoreBoard.app/ScoreBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreBoard/ScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "ScoreBoardTests/ScoreBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D108A0E147085A1000771D0 /* Build configuration list for PBXProject "ScoreBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D108A4A147085A2000771D0 /* Debug */,
+				2D108A4B147085A2000771D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D108A4C147085A2000771D0 /* Build configuration list for PBXNativeTarget "ScoreBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D108A4D147085A2000771D0 /* Debug */,
+				2D108A4E147085A2000771D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D108A4F147085A2000771D0 /* Build configuration list for PBXNativeTarget "ScoreBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D108A50147085A2000771D0 /* Debug */,
+				2D108A51147085A2000771D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D108A0B147085A1000771D0 /* Project object */;
+}

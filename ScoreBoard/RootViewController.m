@@ -19,6 +19,9 @@
     
     //set the view's background color
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    //set the view's title
+    self.title = @"Score Board";
 }
 
 - (void)viewDidLoad
@@ -27,7 +30,7 @@
     self.newGameButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     
     //set the position of the button
-    self.newGameButton.frame = CGRectMake(100, 170, 100, 30);
+    self.newGameButton.frame = CGRectMake(110, 170, 100, 30);
     
     //set the button's title
     [self.newGameButton setTitle:@"New Game" forState:UIControlStateNormal];

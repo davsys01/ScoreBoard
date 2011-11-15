@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0448F614720A96002F8834 /* StepTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0448F414720A96002F8834 /* StepTwoViewController.m */; };
+		2D0448F714720A96002F8834 /* StepTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D0448F514720A96002F8834 /* StepTwoViewController.xib */; };
 		2D108A19147085A1000771D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A18147085A1000771D0 /* UIKit.framework */; };
 		2D108A1B147085A1000771D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A1A147085A1000771D0 /* Foundation.framework */; };
 		2D108A1D147085A1000771D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D108A1C147085A1000771D0 /* CoreGraphics.framework */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D0448F314720A96002F8834 /* StepTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepTwoViewController.h; sourceTree = "<group>"; };
+		2D0448F414720A96002F8834 /* StepTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepTwoViewController.m; sourceTree = "<group>"; };
+		2D0448F514720A96002F8834 /* StepTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepTwoViewController.xib; sourceTree = "<group>"; };
 		2D108A14147085A1000771D0 /* ScoreBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D108A18147085A1000771D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D108A1A147085A1000771D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -124,6 +129,8 @@
 				2D108A27147085A1000771D0 /* ScoreBoardAppDelegate.h */,
 				2D108A531470890D000771D0 /* StepOneVewController.h */,
 				2D108A541470890D000771D0 /* StepOneVewController.m */,
+				2D0448F314720A96002F8834 /* StepTwoViewController.h */,
+				2D0448F414720A96002F8834 /* StepTwoViewController.m */,
 				2D108A28147085A1000771D0 /* ScoreBoardAppDelegate.m */,
 				2D108A2D147085A1000771D0 /* RootViewController.h */,
 				2D108A2E147085A1000771D0 /* RootViewController.m */,
@@ -167,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				2D108A2A147085A1000771D0 /* MainWindow.xib */,
+				2D0448F514720A96002F8834 /* StepTwoViewController.xib */,
 				2D108A551470890D000771D0 /* StepOneVewController.xib */,
 				2D108A30147085A1000771D0 /* RootViewController.xib */,
 			);
@@ -244,6 +252,7 @@
 				2D108A2C147085A1000771D0 /* MainWindow.xib in Resources */,
 				2D108A32147085A1000771D0 /* RootViewController.xib in Resources */,
 				2D108A571470890D000771D0 /* StepOneVewController.xib in Resources */,
+				2D0448F714720A96002F8834 /* StepTwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +292,7 @@
 				2D108A29147085A1000771D0 /* ScoreBoardAppDelegate.m in Sources */,
 				2D108A2F147085A1000771D0 /* RootViewController.m in Sources */,
 				2D108A561470890D000771D0 /* StepOneVewController.m in Sources */,
+				2D0448F614720A96002F8834 /* StepTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +468,7 @@
 				2D108A4E147085A2000771D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D108A4F147085A2000771D0 /* Build configuration list for PBXNativeTarget "ScoreBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +477,7 @@
 				2D108A51147085A2000771D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

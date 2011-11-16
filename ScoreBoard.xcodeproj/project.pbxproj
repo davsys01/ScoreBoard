@@ -27,6 +27,9 @@
 		2D108A49147085A2000771D0 /* ScoreBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D108A48147085A2000771D0 /* ScoreBoardTests.m */; };
 		2D108A561470890D000771D0 /* StepOneVewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D108A541470890D000771D0 /* StepOneVewController.m */; };
 		2D108A571470890D000771D0 /* StepOneVewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D108A551470890D000771D0 /* StepOneVewController.xib */; };
+		2DA4ADF714736E2A00509AC6 /* StepOneTableDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA4ADF614736E2A00509AC6 /* StepOneTableDataController.m */; };
+		2DA4ADFC1473744D00509AC6 /* StepOneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA4ADFA1473744C00509AC6 /* StepOneTableViewController.m */; };
+		2DA4ADFD1473744D00509AC6 /* StepOneTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA4ADFB1473744D00509AC6 /* StepOneTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,11 @@
 		2D108A531470890D000771D0 /* StepOneVewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepOneVewController.h; sourceTree = "<group>"; };
 		2D108A541470890D000771D0 /* StepOneVewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepOneVewController.m; sourceTree = "<group>"; };
 		2D108A551470890D000771D0 /* StepOneVewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepOneVewController.xib; sourceTree = "<group>"; };
+		2DA4ADF514736E2A00509AC6 /* StepOneTableDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepOneTableDataController.h; sourceTree = "<group>"; };
+		2DA4ADF614736E2A00509AC6 /* StepOneTableDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepOneTableDataController.m; sourceTree = "<group>"; };
+		2DA4ADF91473744C00509AC6 /* StepOneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepOneTableViewController.h; sourceTree = "<group>"; };
+		2DA4ADFA1473744C00509AC6 /* StepOneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepOneTableViewController.m; sourceTree = "<group>"; };
+		2DA4ADFB1473744D00509AC6 /* StepOneTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepOneTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,10 @@
 				2D108A541470890D000771D0 /* StepOneVewController.m */,
 				2D0448F314720A96002F8834 /* StepTwoViewController.h */,
 				2D0448F414720A96002F8834 /* StepTwoViewController.m */,
+				2DA4ADF514736E2A00509AC6 /* StepOneTableDataController.h */,
+				2DA4ADF614736E2A00509AC6 /* StepOneTableDataController.m */,
+				2DA4ADF91473744C00509AC6 /* StepOneTableViewController.h */,
+				2DA4ADFA1473744C00509AC6 /* StepOneTableViewController.m */,
 				2D108A28147085A1000771D0 /* ScoreBoardAppDelegate.m */,
 				2D108A2D147085A1000771D0 /* RootViewController.h */,
 				2D108A2E147085A1000771D0 /* RootViewController.m */,
@@ -176,6 +188,7 @@
 				2D108A2A147085A1000771D0 /* MainWindow.xib */,
 				2D0448F514720A96002F8834 /* StepTwoViewController.xib */,
 				2D108A551470890D000771D0 /* StepOneVewController.xib */,
+				2DA4ADFB1473744D00509AC6 /* StepOneTableViewController.xib */,
 				2D108A30147085A1000771D0 /* RootViewController.xib */,
 			);
 			name = Resources;
@@ -253,6 +266,7 @@
 				2D108A32147085A1000771D0 /* RootViewController.xib in Resources */,
 				2D108A571470890D000771D0 /* StepOneVewController.xib in Resources */,
 				2D0448F714720A96002F8834 /* StepTwoViewController.xib in Resources */,
+				2DA4ADFD1473744D00509AC6 /* StepOneTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +307,8 @@
 				2D108A2F147085A1000771D0 /* RootViewController.m in Sources */,
 				2D108A561470890D000771D0 /* StepOneVewController.m in Sources */,
 				2D0448F614720A96002F8834 /* StepTwoViewController.m in Sources */,
+				2DA4ADF714736E2A00509AC6 /* StepOneTableDataController.m in Sources */,
+				2DA4ADFC1473744D00509AC6 /* StepOneTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

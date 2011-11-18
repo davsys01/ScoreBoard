@@ -10,12 +10,13 @@
 
 @class StepOneTableDataController;
 
-@interface StepOneTableViewController : UITableViewController 
+@interface StepTwoTableViewController : UITableViewController 
 {
-    StepOneTableDataController *_dataController;
-    UIView *_myView;
+    StepOneTableDataController *dataController;
+    NSInteger rowNumber;
 }
 
 @property (nonatomic, retain) StepOneTableDataController *dataController;
 @property (nonatomic, retain) UIView *myView;
+@property (nonatomic) NSInteger rowNumber;
 @end

@@ -8,7 +8,7 @@
 
 #import "StepOneVewController.h"
 #import "StepTwoViewController.h"
-
+#import "StepTwoTableViewController.h"
 @implementation StepOneVewController
 
 @synthesize userInputNumberLabel = _userInputNumberLabel, numberPicker = _numberPicker, selectedNumberLabel = _selectedNumberLabel, nextButton = _nextButton, homeButton = _homeButton;
@@ -101,10 +101,13 @@
 
 -(void)goToStepTwo:(id)sender {
     StepTwoViewController *stepTwoView = [[StepTwoViewController alloc] initWithNibName:@"StepTwoViewController" bundle:nil];
+    StepTwoTableViewController *stepTwoTableView = [[StepTwoTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    stepTwoTableView.rowNumber = [self.selectedNumberLabel.text intValue];
     stepTwoView.numberOfPlayer = [self.selectedNumberLabel.text intValue];
-    NSLog(@"**************** number of players %d", stepTwoView.numberOfPlayer);
-    [[self navigationController] pushViewController:stepTwoView animated:YES];
+    NSLog(@"**************** number of players %d", stepTwoTableView.rowNumber);
+    [[self navigationController] pushViewController:stepTwoTableView animated:YES];
     [stepTwoView release];
+    [stepTwoTableView release];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

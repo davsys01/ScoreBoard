@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "StepOneVewController.h"
+#import "StepTwoTableViewController.h"
 
 @implementation RootViewController
 
@@ -44,6 +45,9 @@
 }
 
 -(void)goToStepOne:(id)sender{
+//    StepTwoTableViewController *stepOneTableView = [[StepTwoTableViewController alloc] initWithStyle:UITableViewStylePlain];
+//    [[self navigationController] pushViewController:stepOneTableView animated:YES];
+//    [stepOneTableView release];
     StepOneVewController *stepOneView = [[StepOneVewController alloc] initWithNibName:@"StepOneVewController" bundle:nil];
     [[self navigationController] pushViewController:stepOneView animated:YES];
     [stepOneView release];

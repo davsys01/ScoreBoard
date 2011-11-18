@@ -9,15 +9,15 @@
 #import <Foundation/Foundation.h>
 
 @interface StepOneTableDataController : NSObject {
-    NSMutableArray *_playerList;
+    NSMutableArray *playerArray;
 }
 
 - (unsigned)countOfPlayerList;
 - (id)objectInPlayerListAtIndex:(NSUInteger)index;
 - (void)removeObjectFromPlayerListAtIndex:(NSUInteger)index;
 - (void)addPlayerListObject:(NSString *)object;
-- (void)setPlayerList:(NSMutableArray *)playerList;
+-(void)setList:(NSMutableArray *)newList;
 
-@property (nonatomic, retain) NSMutableArray *playerList;
+@property (nonatomic, retain) NSMutableArray *playerArray;
 
 @end
